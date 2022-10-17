@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="card">
+            <h1>Generate a<br><h1 class="specialH1">random password</h1></h1>
+            <p>Never use an insecure password again.</p>
+            <button class="greenbutton" onclick="getpassword()">Generate passwords</button>
+            <hr>
+            <div class="horizontalcontainer2">
+                <div class="password">
+                    <div id="password1"></div>
+                </div>
+                <div class="password">
+                    <div id="password2"></div>
+                </div>
+            </div>
+            <div class="horizontalcontainer">
+                <h2>History</h2>
+                <button class="greenbutton" onclick="removeAllChildNodes()">Clear</button>
+            </div>
+            <hr>
+            <div id="history"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

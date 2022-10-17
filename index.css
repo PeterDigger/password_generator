@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+p{
+  color: #aaafb6;
+}
+h1{
+  color: white;
+  line-height: 0.3em;
+  font-size: 3em;
+}
+
+hr{
+  color: #253140;
+}
+
+.specialH1{
+  color: #4adf87;
+}
+
+table{
+    border:1px none white;
+    color: white;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* Card div */
+.card{
+  /* display: flex; */
+  /* align-items: center; */
+    margin: auto;
+  width: 50%;
+  background-color: #1e2938;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.greenbutton{
+  background: #10b982;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.greenbuttontable{
+  background: #10b982;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.horizontalcontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eachrow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
+}
+
+.horizontalcontainer2{
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.password{
+  background: #283549;
+  line-height: 3em;
+  border-radius: 5px;
+  color: #53ea88;
+  padding: 5px;
+}
